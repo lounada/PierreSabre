@@ -36,23 +36,16 @@ public class Humain {
 	}
 	
 	public void direBonjour() {
-		String mot1="Bonjour ! Je m’appelle ";
-		String mot2=" et j’aime boire : ";
-		String mot5= " .J'ai actuellement ";
-		String mot6= "sous en poche";
-		parler (mot1 + nom + mot2 + boisson + mot5+ argent+ mot6);
+		
+		parler ("Bonjour ! Je m’appelle " + nom + " et j’aime boire : " + boisson + " .J'ai  "+ argent+ "sous en poche");
 		
 	}
 	
 	public void boire() {
-		String mot3= "Ahhh, un bon verre de ";
-		String mot4= "! GLOUPS !";
-		parler(mot3 + boisson + mot4);
+		parler( "Ahhh, un bon verre de " + boisson + "! GLOUPS !");
 	}
 	public void boire (String boisson) {
-		String mot1= "Oh chouette je vais boire une goutte de :";
-		String mot2 = " GLOUPS!";
-		parler ( mot1 + boisson + mot2);
+		parler ("Mmmm un bon verre de  :" + boisson +  " GLOUPS!");
 	}
 
 	
